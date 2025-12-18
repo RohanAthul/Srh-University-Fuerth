@@ -10,21 +10,18 @@ The core objective was to implement the following essential features:
 - Export recorded time entries as a CSV file for use in Excel or similar tools
 
 The focus of the project is on simplicity, elegance and learning.
-Thank you for taking the time to go through my program!
+Thank you for taking the time to go through my program and remember to go through the attached Readme file!
 
 """
+
 # ----------------------------------------- Import Libraries ----------------------------------------- #
 
-import pandas as pd, numpy as np
-from datetime import datetime, timedelta
 import streamlit as st
-import time
-import warnings
-warnings.filterwarnings("ignore")
+from datetime import datetime
+import pandas as pd
 
 # ----------------------------------------- Start Session ----------------------------------------- #
 
-st.session_state
 st.set_page_config(layout="wide", page_title="Productivity Tracker") # Setting page width
 
 if "start_datetime" not in st.session_state:
@@ -39,17 +36,17 @@ if "history" not in st.session_state:
 
 # ----------------------------------------- Functions ----------------------------------------- #
 
-# -- Start time function -- #
+# Start time function
 def start_timer():
     st.session_state.start_datetime = datetime.now().replace(microsecond=0)
     st.session_state.elapsed_datetime = None
     
 
-# -- End time function -- #
+# End time function
     # Using end timer function to calculate elapsed time
 def end_timer():
     end_datetime = datetime.now().replace(microsecond=0)
-    elapsed_datetime = end_datetime - st.session_state.start_datetime
+    elapsed_datetime = end_datetime - st.session_state.start_datetime       
     
     st.session_state.elapsed_datetime = elapsed_datetime
 
@@ -67,7 +64,7 @@ def end_timer():
 
 # ----------------------------------------- UI and Interaction ----------------------------------------- #
 
-st.title("Athul Rohan's Running Productivity tracker")
+st.title("Minimalist Productivity Tracker")
 
 # Start button
     # if statements included inside for error handling - Warning to user on wrong input
