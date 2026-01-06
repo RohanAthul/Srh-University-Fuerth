@@ -1,5 +1,5 @@
 
-# Workflow Management System - Internal Tracking and Quality Control
+# Workflow Management System - Corporate Workflow Management Solution
 ## Overview
 
 This project simulates a real-life business process where clients submit files to an organization, which are processed through three key stages:  
