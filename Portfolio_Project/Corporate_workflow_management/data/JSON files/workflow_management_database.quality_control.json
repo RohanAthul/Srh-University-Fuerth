@@ -1,0 +1,1080 @@
+[{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f3f"
+  },
+  "qc_emp_id": "QC308",
+  "job_case_id": "J1001",
+  "error_score": 4,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f40"
+  },
+  "qc_emp_id": "QC302",
+  "job_case_id": "J1002",
+  "error_score": 5,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f41"
+  },
+  "qc_emp_id": "QC307",
+  "job_case_id": "J1003",
+  "error_score": 5,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f42"
+  },
+  "qc_emp_id": "QC306",
+  "job_case_id": "J1004",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f43"
+  },
+  "qc_emp_id": "QC301",
+  "job_case_id": "J1005",
+  "error_score": 5,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f44"
+  },
+  "qc_emp_id": "QC302",
+  "job_case_id": "J1006",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f45"
+  },
+  "qc_emp_id": "QC301",
+  "job_case_id": "J1007",
+  "error_score": 4,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f46"
+  },
+  "qc_emp_id": "QC306",
+  "job_case_id": "J1008",
+  "error_score": 4,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f47"
+  },
+  "qc_emp_id": "QC303",
+  "job_case_id": "J1009",
+  "error_score": 5,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f48"
+  },
+  "qc_emp_id": "QC303",
+  "job_case_id": "J1010",
+  "error_score": 3,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f49"
+  },
+  "qc_emp_id": "QC309",
+  "job_case_id": "J1011",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f4a"
+  },
+  "qc_emp_id": "QC303",
+  "job_case_id": "J1012",
+  "error_score": 2,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f4b"
+  },
+  "qc_emp_id": "QC310",
+  "job_case_id": "J1013",
+  "error_score": 5,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f4c"
+  },
+  "qc_emp_id": "QC307",
+  "job_case_id": "J1014",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f4d"
+  },
+  "qc_emp_id": "QC307",
+  "job_case_id": "J1015",
+  "error_score": 2,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f4e"
+  },
+  "qc_emp_id": "QC305",
+  "job_case_id": "J1016",
+  "error_score": 3,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f4f"
+  },
+  "qc_emp_id": "QC306",
+  "job_case_id": "J1017",
+  "error_score": 5,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f50"
+  },
+  "qc_emp_id": "QC304",
+  "job_case_id": "J1018",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f51"
+  },
+  "qc_emp_id": "QC306",
+  "job_case_id": "J1019",
+  "error_score": 4,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f52"
+  },
+  "qc_emp_id": "QC308",
+  "job_case_id": "J1020",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f53"
+  },
+  "qc_emp_id": "QC307",
+  "job_case_id": "J1021",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f54"
+  },
+  "qc_emp_id": "QC302",
+  "job_case_id": "J1022",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f55"
+  },
+  "qc_emp_id": "QC304",
+  "job_case_id": "J1023",
+  "error_score": 3,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f56"
+  },
+  "qc_emp_id": "QC309",
+  "job_case_id": "J1024",
+  "error_score": 5,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f57"
+  },
+  "qc_emp_id": "QC304",
+  "job_case_id": "J1025",
+  "error_score": 5,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f58"
+  },
+  "qc_emp_id": "QC308",
+  "job_case_id": "J1026",
+  "error_score": 2,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f59"
+  },
+  "qc_emp_id": "QC310",
+  "job_case_id": "J1027",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f5a"
+  },
+  "qc_emp_id": "QC309",
+  "job_case_id": "J1028",
+  "error_score": 3,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f5b"
+  },
+  "qc_emp_id": "QC310",
+  "job_case_id": "J1029",
+  "error_score": 3,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f5c"
+  },
+  "qc_emp_id": "QC306",
+  "job_case_id": "J1030",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f5d"
+  },
+  "qc_emp_id": "QC306",
+  "job_case_id": "J1031",
+  "error_score": 5,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f5e"
+  },
+  "qc_emp_id": "QC308",
+  "job_case_id": "J1032",
+  "error_score": 5,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f5f"
+  },
+  "qc_emp_id": "QC309",
+  "job_case_id": "J1033",
+  "error_score": 2,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f60"
+  },
+  "qc_emp_id": "QC303",
+  "job_case_id": "J1034",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f61"
+  },
+  "qc_emp_id": "QC306",
+  "job_case_id": "J1035",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f62"
+  },
+  "qc_emp_id": "QC301",
+  "job_case_id": "J1036",
+  "error_score": 2,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f63"
+  },
+  "qc_emp_id": "QC310",
+  "job_case_id": "J1037",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f64"
+  },
+  "qc_emp_id": "QC310",
+  "job_case_id": "J1038",
+  "error_score": 3,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f65"
+  },
+  "qc_emp_id": "QC303",
+  "job_case_id": "J1039",
+  "error_score": 2,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f66"
+  },
+  "qc_emp_id": "QC309",
+  "job_case_id": "J1040",
+  "error_score": 2,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f67"
+  },
+  "qc_emp_id": "QC310",
+  "job_case_id": "J1041",
+  "error_score": 2,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f68"
+  },
+  "qc_emp_id": "QC301",
+  "job_case_id": "J1042",
+  "error_score": 5,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f69"
+  },
+  "qc_emp_id": "QC307",
+  "job_case_id": "J1043",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f6a"
+  },
+  "qc_emp_id": "QC302",
+  "job_case_id": "J1044",
+  "error_score": 4,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f6b"
+  },
+  "qc_emp_id": "QC305",
+  "job_case_id": "J1045",
+  "error_score": 5,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f6c"
+  },
+  "qc_emp_id": "QC309",
+  "job_case_id": "J1046",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f6d"
+  },
+  "qc_emp_id": "QC310",
+  "job_case_id": "J1047",
+  "error_score": 3,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f6e"
+  },
+  "qc_emp_id": "QC310",
+  "job_case_id": "J1048",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f6f"
+  },
+  "qc_emp_id": "QC304",
+  "job_case_id": "J1049",
+  "error_score": 4,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f70"
+  },
+  "qc_emp_id": "QC308",
+  "job_case_id": "J1050",
+  "error_score": 4,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f71"
+  },
+  "qc_emp_id": "QC302",
+  "job_case_id": "J1051",
+  "error_score": 5,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f72"
+  },
+  "qc_emp_id": "QC305",
+  "job_case_id": "J1052",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f73"
+  },
+  "qc_emp_id": "QC305",
+  "job_case_id": "J1053",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f74"
+  },
+  "qc_emp_id": "QC310",
+  "job_case_id": "J1054",
+  "error_score": 3,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f75"
+  },
+  "qc_emp_id": "QC307",
+  "job_case_id": "J1055",
+  "error_score": 2,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f76"
+  },
+  "qc_emp_id": "QC302",
+  "job_case_id": "J1056",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f77"
+  },
+  "qc_emp_id": "QC306",
+  "job_case_id": "J1057",
+  "error_score": 2,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f78"
+  },
+  "qc_emp_id": "QC301",
+  "job_case_id": "J1058",
+  "error_score": 2,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f79"
+  },
+  "qc_emp_id": "QC306",
+  "job_case_id": "J1059",
+  "error_score": 3,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f7a"
+  },
+  "qc_emp_id": "QC304",
+  "job_case_id": "J1060",
+  "error_score": 4,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f7b"
+  },
+  "qc_emp_id": "QC305",
+  "job_case_id": "J1061",
+  "error_score": 5,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f7c"
+  },
+  "qc_emp_id": "QC302",
+  "job_case_id": "J1062",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f7d"
+  },
+  "qc_emp_id": "QC302",
+  "job_case_id": "J1063",
+  "error_score": 2,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f7e"
+  },
+  "qc_emp_id": "QC306",
+  "job_case_id": "J1064",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f7f"
+  },
+  "qc_emp_id": "QC305",
+  "job_case_id": "J1065",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f80"
+  },
+  "qc_emp_id": "QC305",
+  "job_case_id": "J1066",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f81"
+  },
+  "qc_emp_id": "QC302",
+  "job_case_id": "J1067",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f82"
+  },
+  "qc_emp_id": "QC307",
+  "job_case_id": "J1068",
+  "error_score": 5,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f83"
+  },
+  "qc_emp_id": "QC309",
+  "job_case_id": "J1069",
+  "error_score": 4,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f84"
+  },
+  "qc_emp_id": "QC302",
+  "job_case_id": "J1070",
+  "error_score": 2,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f85"
+  },
+  "qc_emp_id": "QC301",
+  "job_case_id": "J1071",
+  "error_score": 2,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f86"
+  },
+  "qc_emp_id": "QC307",
+  "job_case_id": "J1072",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f87"
+  },
+  "qc_emp_id": "QC307",
+  "job_case_id": "J1073",
+  "error_score": 2,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f88"
+  },
+  "qc_emp_id": "QC301",
+  "job_case_id": "J1074",
+  "error_score": 3,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f89"
+  },
+  "qc_emp_id": "QC307",
+  "job_case_id": "J1075",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f8a"
+  },
+  "qc_emp_id": "QC307",
+  "job_case_id": "J1076",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f8b"
+  },
+  "qc_emp_id": "QC307",
+  "job_case_id": "J1077",
+  "error_score": 2,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f8c"
+  },
+  "qc_emp_id": "QC305",
+  "job_case_id": "J1078",
+  "error_score": 3,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f8d"
+  },
+  "qc_emp_id": "QC307",
+  "job_case_id": "J1079",
+  "error_score": 4,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f8e"
+  },
+  "qc_emp_id": "QC301",
+  "job_case_id": "J1080",
+  "error_score": 2,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f8f"
+  },
+  "qc_emp_id": "QC308",
+  "job_case_id": "J1081",
+  "error_score": 3,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f90"
+  },
+  "qc_emp_id": "QC308",
+  "job_case_id": "J1082",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f91"
+  },
+  "qc_emp_id": "QC306",
+  "job_case_id": "J1083",
+  "error_score": 4,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f92"
+  },
+  "qc_emp_id": "QC302",
+  "job_case_id": "J1084",
+  "error_score": 3,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f93"
+  },
+  "qc_emp_id": "QC306",
+  "job_case_id": "J1085",
+  "error_score": 4,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f94"
+  },
+  "qc_emp_id": "QC301",
+  "job_case_id": "J1086",
+  "error_score": 5,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f95"
+  },
+  "qc_emp_id": "QC307",
+  "job_case_id": "J1087",
+  "error_score": 5,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f96"
+  },
+  "qc_emp_id": "QC301",
+  "job_case_id": "J1088",
+  "error_score": 3,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f97"
+  },
+  "qc_emp_id": "QC307",
+  "job_case_id": "J1089",
+  "error_score": 3,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f98"
+  },
+  "qc_emp_id": "QC308",
+  "job_case_id": "J1090",
+  "error_score": 5,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f99"
+  },
+  "qc_emp_id": "QC301",
+  "job_case_id": "J1091",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f9a"
+  },
+  "qc_emp_id": "QC307",
+  "job_case_id": "J1092",
+  "error_score": 3,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f9b"
+  },
+  "qc_emp_id": "QC306",
+  "job_case_id": "J1093",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f9c"
+  },
+  "qc_emp_id": "QC306",
+  "job_case_id": "J1094",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f9d"
+  },
+  "qc_emp_id": "QC309",
+  "job_case_id": "J1095",
+  "error_score": 4,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f9e"
+  },
+  "qc_emp_id": "QC304",
+  "job_case_id": "J1096",
+  "error_score": 2,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780f9f"
+  },
+  "qc_emp_id": "QC307",
+  "job_case_id": "J1097",
+  "error_score": 5,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780fa0"
+  },
+  "qc_emp_id": "QC302",
+  "job_case_id": "J1098",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780fa1"
+  },
+  "qc_emp_id": "QC306",
+  "job_case_id": "J1099",
+  "error_score": 2,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780fa2"
+  },
+  "qc_emp_id": "QC303",
+  "job_case_id": "J1100",
+  "error_score": 5,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780fa3"
+  },
+  "qc_emp_id": "QC309",
+  "job_case_id": "J1101",
+  "error_score": 5,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780fa4"
+  },
+  "qc_emp_id": "QC305",
+  "job_case_id": "J1102",
+  "error_score": 3,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780fa5"
+  },
+  "qc_emp_id": "QC305",
+  "job_case_id": "J1103",
+  "error_score": 4,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780fa6"
+  },
+  "qc_emp_id": "QC306",
+  "job_case_id": "J1104",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780fa7"
+  },
+  "qc_emp_id": "QC307",
+  "job_case_id": "J1105",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780fa8"
+  },
+  "qc_emp_id": "QC306",
+  "job_case_id": "J1106",
+  "error_score": 4,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780fa9"
+  },
+  "qc_emp_id": "QC310",
+  "job_case_id": "J1107",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780faa"
+  },
+  "qc_emp_id": "QC304",
+  "job_case_id": "J1108",
+  "error_score": 3,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780fab"
+  },
+  "qc_emp_id": "QC308",
+  "job_case_id": "J1109",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780fac"
+  },
+  "qc_emp_id": "QC304",
+  "job_case_id": "J1110",
+  "error_score": 4,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780fad"
+  },
+  "qc_emp_id": "QC305",
+  "job_case_id": "J1111",
+  "error_score": 4,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780fae"
+  },
+  "qc_emp_id": "QC305",
+  "job_case_id": "J1112",
+  "error_score": 4,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780faf"
+  },
+  "qc_emp_id": "QC301",
+  "job_case_id": "J1113",
+  "error_score": 3,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780fb0"
+  },
+  "qc_emp_id": "QC305",
+  "job_case_id": "J1114",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780fb1"
+  },
+  "qc_emp_id": "QC302",
+  "job_case_id": "J1115",
+  "error_score": 2,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780fb2"
+  },
+  "qc_emp_id": "QC307",
+  "job_case_id": "J1116",
+  "error_score": 5,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780fb3"
+  },
+  "qc_emp_id": "QC308",
+  "job_case_id": "J1117",
+  "error_score": 5,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780fb4"
+  },
+  "qc_emp_id": "QC305",
+  "job_case_id": "J1118",
+  "error_score": 4,
+  "rework_flag": 1
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780fb5"
+  },
+  "qc_emp_id": "QC307",
+  "job_case_id": "J1119",
+  "error_score": 1,
+  "rework_flag": 0
+},
+{
+  "_id": {
+    "$oid": "694c137a0930197f1e780fb6"
+  },
+  "qc_emp_id": "QC310",
+  "job_case_id": "J1120",
+  "error_score": 4,
+  "rework_flag": 1
+}]

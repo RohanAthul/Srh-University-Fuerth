@@ -1,0 +1,1080 @@
+[{
+  "_id": {
+    "$oid": "694c13940930197f1e780fb8"
+  },
+  "review_id": "R012",
+  "job_case_id": "J1001",
+  "client_dept": "Retail",
+  "estimated_effort_hours": 7
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fb9"
+  },
+  "review_id": "R015",
+  "job_case_id": "J1002",
+  "client_dept": "Finance",
+  "estimated_effort_hours": 6
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fba"
+  },
+  "review_id": "R019",
+  "job_case_id": "J1003",
+  "client_dept": "Retail",
+  "estimated_effort_hours": 6
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fbb"
+  },
+  "review_id": "R009",
+  "job_case_id": "J1004",
+  "client_dept": "Finance",
+  "estimated_effort_hours": 6
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fbc"
+  },
+  "review_id": "R001",
+  "job_case_id": "J1005",
+  "client_dept": "Manufacturing",
+  "estimated_effort_hours": 4
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fbd"
+  },
+  "review_id": "R005",
+  "job_case_id": "J1006",
+  "client_dept": "Retail",
+  "estimated_effort_hours": 4
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fbe"
+  },
+  "review_id": "R007",
+  "job_case_id": "J1007",
+  "client_dept": "Retail",
+  "estimated_effort_hours": 6
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fbf"
+  },
+  "review_id": "R010",
+  "job_case_id": "J1008",
+  "client_dept": "Retail",
+  "estimated_effort_hours": 5
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fc0"
+  },
+  "review_id": "R001",
+  "job_case_id": "J1009",
+  "client_dept": "Healthcare",
+  "estimated_effort_hours": 5
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fc1"
+  },
+  "review_id": "R019",
+  "job_case_id": "J1010",
+  "client_dept": "Finance",
+  "estimated_effort_hours": 4
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fc2"
+  },
+  "review_id": "R011",
+  "job_case_id": "J1011",
+  "client_dept": "Healthcare",
+  "estimated_effort_hours": 5
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fc3"
+  },
+  "review_id": "R002",
+  "job_case_id": "J1012",
+  "client_dept": "Manufacturing",
+  "estimated_effort_hours": 7
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fc4"
+  },
+  "review_id": "R001",
+  "job_case_id": "J1013",
+  "client_dept": "Retail",
+  "estimated_effort_hours": 8
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fc5"
+  },
+  "review_id": "R013",
+  "job_case_id": "J1014",
+  "client_dept": "Healthcare",
+  "estimated_effort_hours": 5
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fc6"
+  },
+  "review_id": "R008",
+  "job_case_id": "J1015",
+  "client_dept": "Finance",
+  "estimated_effort_hours": 7
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fc7"
+  },
+  "review_id": "R011",
+  "job_case_id": "J1016",
+  "client_dept": "Healthcare",
+  "estimated_effort_hours": 6
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fc8"
+  },
+  "review_id": "R001",
+  "job_case_id": "J1017",
+  "client_dept": "IT",
+  "estimated_effort_hours": 5
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fc9"
+  },
+  "review_id": "R010",
+  "job_case_id": "J1018",
+  "client_dept": "Retail",
+  "estimated_effort_hours": 8
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fca"
+  },
+  "review_id": "R018",
+  "job_case_id": "J1019",
+  "client_dept": "Finance",
+  "estimated_effort_hours": 4
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fcb"
+  },
+  "review_id": "R019",
+  "job_case_id": "J1020",
+  "client_dept": "Finance",
+  "estimated_effort_hours": 7
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fcc"
+  },
+  "review_id": "R020",
+  "job_case_id": "J1021",
+  "client_dept": "Healthcare",
+  "estimated_effort_hours": 5
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fcd"
+  },
+  "review_id": "R019",
+  "job_case_id": "J1022",
+  "client_dept": "Retail",
+  "estimated_effort_hours": 7
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fce"
+  },
+  "review_id": "R002",
+  "job_case_id": "J1023",
+  "client_dept": "Retail",
+  "estimated_effort_hours": 7
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fcf"
+  },
+  "review_id": "R002",
+  "job_case_id": "J1024",
+  "client_dept": "Retail",
+  "estimated_effort_hours": 5
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fd0"
+  },
+  "review_id": "R001",
+  "job_case_id": "J1025",
+  "client_dept": "Retail",
+  "estimated_effort_hours": 5
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fd1"
+  },
+  "review_id": "R017",
+  "job_case_id": "J1026",
+  "client_dept": "Finance",
+  "estimated_effort_hours": 5
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fd2"
+  },
+  "review_id": "R010",
+  "job_case_id": "J1027",
+  "client_dept": "Healthcare",
+  "estimated_effort_hours": 6
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fd3"
+  },
+  "review_id": "R012",
+  "job_case_id": "J1028",
+  "client_dept": "Finance",
+  "estimated_effort_hours": 7
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fd4"
+  },
+  "review_id": "R011",
+  "job_case_id": "J1029",
+  "client_dept": "Finance",
+  "estimated_effort_hours": 6
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fd5"
+  },
+  "review_id": "R001",
+  "job_case_id": "J1030",
+  "client_dept": "Manufacturing",
+  "estimated_effort_hours": 8
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fd6"
+  },
+  "review_id": "R013",
+  "job_case_id": "J1031",
+  "client_dept": "IT",
+  "estimated_effort_hours": 7
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fd7"
+  },
+  "review_id": "R009",
+  "job_case_id": "J1032",
+  "client_dept": "Retail",
+  "estimated_effort_hours": 5
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fd8"
+  },
+  "review_id": "R001",
+  "job_case_id": "J1033",
+  "client_dept": "Healthcare",
+  "estimated_effort_hours": 6
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fd9"
+  },
+  "review_id": "R017",
+  "job_case_id": "J1034",
+  "client_dept": "IT",
+  "estimated_effort_hours": 6
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fda"
+  },
+  "review_id": "R006",
+  "job_case_id": "J1035",
+  "client_dept": "IT",
+  "estimated_effort_hours": 5
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fdb"
+  },
+  "review_id": "R016",
+  "job_case_id": "J1036",
+  "client_dept": "Finance",
+  "estimated_effort_hours": 8
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fdc"
+  },
+  "review_id": "R006",
+  "job_case_id": "J1037",
+  "client_dept": "Retail",
+  "estimated_effort_hours": 6
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fdd"
+  },
+  "review_id": "R013",
+  "job_case_id": "J1038",
+  "client_dept": "Finance",
+  "estimated_effort_hours": 6
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fde"
+  },
+  "review_id": "R011",
+  "job_case_id": "J1039",
+  "client_dept": "Finance",
+  "estimated_effort_hours": 4
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fdf"
+  },
+  "review_id": "R003",
+  "job_case_id": "J1040",
+  "client_dept": "Finance",
+  "estimated_effort_hours": 4
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fe0"
+  },
+  "review_id": "R004",
+  "job_case_id": "J1041",
+  "client_dept": "Retail",
+  "estimated_effort_hours": 7
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fe1"
+  },
+  "review_id": "R001",
+  "job_case_id": "J1042",
+  "client_dept": "Manufacturing",
+  "estimated_effort_hours": 6
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fe2"
+  },
+  "review_id": "R004",
+  "job_case_id": "J1043",
+  "client_dept": "IT",
+  "estimated_effort_hours": 6
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fe3"
+  },
+  "review_id": "R003",
+  "job_case_id": "J1044",
+  "client_dept": "Healthcare",
+  "estimated_effort_hours": 4
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fe4"
+  },
+  "review_id": "R016",
+  "job_case_id": "J1045",
+  "client_dept": "Healthcare",
+  "estimated_effort_hours": 6
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fe5"
+  },
+  "review_id": "R020",
+  "job_case_id": "J1046",
+  "client_dept": "Retail",
+  "estimated_effort_hours": 4
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fe6"
+  },
+  "review_id": "R017",
+  "job_case_id": "J1047",
+  "client_dept": "Retail",
+  "estimated_effort_hours": 6
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fe7"
+  },
+  "review_id": "R009",
+  "job_case_id": "J1048",
+  "client_dept": "IT",
+  "estimated_effort_hours": 5
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fe8"
+  },
+  "review_id": "R002",
+  "job_case_id": "J1049",
+  "client_dept": "IT",
+  "estimated_effort_hours": 4
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fe9"
+  },
+  "review_id": "R016",
+  "job_case_id": "J1050",
+  "client_dept": "Manufacturing",
+  "estimated_effort_hours": 8
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fea"
+  },
+  "review_id": "R009",
+  "job_case_id": "J1051",
+  "client_dept": "IT",
+  "estimated_effort_hours": 7
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780feb"
+  },
+  "review_id": "R006",
+  "job_case_id": "J1052",
+  "client_dept": "Healthcare",
+  "estimated_effort_hours": 6
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fec"
+  },
+  "review_id": "R006",
+  "job_case_id": "J1053",
+  "client_dept": "Retail",
+  "estimated_effort_hours": 7
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fed"
+  },
+  "review_id": "R005",
+  "job_case_id": "J1054",
+  "client_dept": "Retail",
+  "estimated_effort_hours": 6
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fee"
+  },
+  "review_id": "R020",
+  "job_case_id": "J1055",
+  "client_dept": "Healthcare",
+  "estimated_effort_hours": 7
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fef"
+  },
+  "review_id": "R010",
+  "job_case_id": "J1056",
+  "client_dept": "Manufacturing",
+  "estimated_effort_hours": 6
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780ff0"
+  },
+  "review_id": "R008",
+  "job_case_id": "J1057",
+  "client_dept": "IT",
+  "estimated_effort_hours": 8
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780ff1"
+  },
+  "review_id": "R003",
+  "job_case_id": "J1058",
+  "client_dept": "Manufacturing",
+  "estimated_effort_hours": 6
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780ff2"
+  },
+  "review_id": "R001",
+  "job_case_id": "J1059",
+  "client_dept": "Finance",
+  "estimated_effort_hours": 7
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780ff3"
+  },
+  "review_id": "R007",
+  "job_case_id": "J1060",
+  "client_dept": "Retail",
+  "estimated_effort_hours": 7
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780ff4"
+  },
+  "review_id": "R005",
+  "job_case_id": "J1061",
+  "client_dept": "Healthcare",
+  "estimated_effort_hours": 7
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780ff5"
+  },
+  "review_id": "R013",
+  "job_case_id": "J1062",
+  "client_dept": "Manufacturing",
+  "estimated_effort_hours": 7
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780ff6"
+  },
+  "review_id": "R009",
+  "job_case_id": "J1063",
+  "client_dept": "Healthcare",
+  "estimated_effort_hours": 6
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780ff7"
+  },
+  "review_id": "R009",
+  "job_case_id": "J1064",
+  "client_dept": "Healthcare",
+  "estimated_effort_hours": 7
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780ff8"
+  },
+  "review_id": "R003",
+  "job_case_id": "J1065",
+  "client_dept": "Finance",
+  "estimated_effort_hours": 8
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780ff9"
+  },
+  "review_id": "R013",
+  "job_case_id": "J1066",
+  "client_dept": "Retail",
+  "estimated_effort_hours": 5
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780ffa"
+  },
+  "review_id": "R018",
+  "job_case_id": "J1067",
+  "client_dept": "Retail",
+  "estimated_effort_hours": 6
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780ffb"
+  },
+  "review_id": "R015",
+  "job_case_id": "J1068",
+  "client_dept": "Healthcare",
+  "estimated_effort_hours": 7
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780ffc"
+  },
+  "review_id": "R017",
+  "job_case_id": "J1069",
+  "client_dept": "Healthcare",
+  "estimated_effort_hours": 6
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780ffd"
+  },
+  "review_id": "R003",
+  "job_case_id": "J1070",
+  "client_dept": "IT",
+  "estimated_effort_hours": 4
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780ffe"
+  },
+  "review_id": "R007",
+  "job_case_id": "J1071",
+  "client_dept": "IT",
+  "estimated_effort_hours": 5
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e780fff"
+  },
+  "review_id": "R020",
+  "job_case_id": "J1072",
+  "client_dept": "Finance",
+  "estimated_effort_hours": 7
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e781000"
+  },
+  "review_id": "R013",
+  "job_case_id": "J1073",
+  "client_dept": "Manufacturing",
+  "estimated_effort_hours": 7
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e781001"
+  },
+  "review_id": "R015",
+  "job_case_id": "J1074",
+  "client_dept": "Manufacturing",
+  "estimated_effort_hours": 7
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e781002"
+  },
+  "review_id": "R009",
+  "job_case_id": "J1075",
+  "client_dept": "Retail",
+  "estimated_effort_hours": 5
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e781003"
+  },
+  "review_id": "R004",
+  "job_case_id": "J1076",
+  "client_dept": "Finance",
+  "estimated_effort_hours": 7
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e781004"
+  },
+  "review_id": "R018",
+  "job_case_id": "J1077",
+  "client_dept": "IT",
+  "estimated_effort_hours": 8
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e781005"
+  },
+  "review_id": "R005",
+  "job_case_id": "J1078",
+  "client_dept": "Retail",
+  "estimated_effort_hours": 6
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e781006"
+  },
+  "review_id": "R005",
+  "job_case_id": "J1079",
+  "client_dept": "Manufacturing",
+  "estimated_effort_hours": 5
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e781007"
+  },
+  "review_id": "R013",
+  "job_case_id": "J1080",
+  "client_dept": "Finance",
+  "estimated_effort_hours": 8
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e781008"
+  },
+  "review_id": "R013",
+  "job_case_id": "J1081",
+  "client_dept": "Retail",
+  "estimated_effort_hours": 7
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e781009"
+  },
+  "review_id": "R016",
+  "job_case_id": "J1082",
+  "client_dept": "IT",
+  "estimated_effort_hours": 8
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e78100a"
+  },
+  "review_id": "R020",
+  "job_case_id": "J1083",
+  "client_dept": "Finance",
+  "estimated_effort_hours": 8
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e78100b"
+  },
+  "review_id": "R020",
+  "job_case_id": "J1084",
+  "client_dept": "Finance",
+  "estimated_effort_hours": 6
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e78100c"
+  },
+  "review_id": "R017",
+  "job_case_id": "J1085",
+  "client_dept": "Retail",
+  "estimated_effort_hours": 4
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e78100d"
+  },
+  "review_id": "R009",
+  "job_case_id": "J1086",
+  "client_dept": "Retail",
+  "estimated_effort_hours": 5
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e78100e"
+  },
+  "review_id": "R020",
+  "job_case_id": "J1087",
+  "client_dept": "Manufacturing",
+  "estimated_effort_hours": 8
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e78100f"
+  },
+  "review_id": "R014",
+  "job_case_id": "J1088",
+  "client_dept": "Finance",
+  "estimated_effort_hours": 4
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e781010"
+  },
+  "review_id": "R008",
+  "job_case_id": "J1089",
+  "client_dept": "Finance",
+  "estimated_effort_hours": 7
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e781011"
+  },
+  "review_id": "R006",
+  "job_case_id": "J1090",
+  "client_dept": "Finance",
+  "estimated_effort_hours": 6
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e781012"
+  },
+  "review_id": "R001",
+  "job_case_id": "J1091",
+  "client_dept": "Finance",
+  "estimated_effort_hours": 8
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e781013"
+  },
+  "review_id": "R004",
+  "job_case_id": "J1092",
+  "client_dept": "Finance",
+  "estimated_effort_hours": 5
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e781014"
+  },
+  "review_id": "R002",
+  "job_case_id": "J1093",
+  "client_dept": "Manufacturing",
+  "estimated_effort_hours": 4
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e781015"
+  },
+  "review_id": "R005",
+  "job_case_id": "J1094",
+  "client_dept": "IT",
+  "estimated_effort_hours": 4
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e781016"
+  },
+  "review_id": "R018",
+  "job_case_id": "J1095",
+  "client_dept": "IT",
+  "estimated_effort_hours": 4
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e781017"
+  },
+  "review_id": "R012",
+  "job_case_id": "J1096",
+  "client_dept": "Healthcare",
+  "estimated_effort_hours": 8
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e781018"
+  },
+  "review_id": "R003",
+  "job_case_id": "J1097",
+  "client_dept": "Healthcare",
+  "estimated_effort_hours": 4
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e781019"
+  },
+  "review_id": "R010",
+  "job_case_id": "J1098",
+  "client_dept": "Retail",
+  "estimated_effort_hours": 8
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e78101a"
+  },
+  "review_id": "R014",
+  "job_case_id": "J1099",
+  "client_dept": "Healthcare",
+  "estimated_effort_hours": 7
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e78101b"
+  },
+  "review_id": "R014",
+  "job_case_id": "J1100",
+  "client_dept": "Finance",
+  "estimated_effort_hours": 5
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e78101c"
+  },
+  "review_id": "R010",
+  "job_case_id": "J1101",
+  "client_dept": "Finance",
+  "estimated_effort_hours": 6
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e78101d"
+  },
+  "review_id": "R005",
+  "job_case_id": "J1102",
+  "client_dept": "Healthcare",
+  "estimated_effort_hours": 6
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e78101e"
+  },
+  "review_id": "R015",
+  "job_case_id": "J1103",
+  "client_dept": "IT",
+  "estimated_effort_hours": 4
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e78101f"
+  },
+  "review_id": "R005",
+  "job_case_id": "J1104",
+  "client_dept": "IT",
+  "estimated_effort_hours": 6
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e781020"
+  },
+  "review_id": "R004",
+  "job_case_id": "J1105",
+  "client_dept": "IT",
+  "estimated_effort_hours": 5
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e781021"
+  },
+  "review_id": "R017",
+  "job_case_id": "J1106",
+  "client_dept": "Manufacturing",
+  "estimated_effort_hours": 7
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e781022"
+  },
+  "review_id": "R007",
+  "job_case_id": "J1107",
+  "client_dept": "IT",
+  "estimated_effort_hours": 4
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e781023"
+  },
+  "review_id": "R019",
+  "job_case_id": "J1108",
+  "client_dept": "Healthcare",
+  "estimated_effort_hours": 8
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e781024"
+  },
+  "review_id": "R014",
+  "job_case_id": "J1109",
+  "client_dept": "Manufacturing",
+  "estimated_effort_hours": 7
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e781025"
+  },
+  "review_id": "R004",
+  "job_case_id": "J1110",
+  "client_dept": "Healthcare",
+  "estimated_effort_hours": 7
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e781026"
+  },
+  "review_id": "R020",
+  "job_case_id": "J1111",
+  "client_dept": "Manufacturing",
+  "estimated_effort_hours": 8
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e781027"
+  },
+  "review_id": "R004",
+  "job_case_id": "J1112",
+  "client_dept": "Finance",
+  "estimated_effort_hours": 4
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e781028"
+  },
+  "review_id": "R019",
+  "job_case_id": "J1113",
+  "client_dept": "Retail",
+  "estimated_effort_hours": 4
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e781029"
+  },
+  "review_id": "R001",
+  "job_case_id": "J1114",
+  "client_dept": "Healthcare",
+  "estimated_effort_hours": 5
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e78102a"
+  },
+  "review_id": "R018",
+  "job_case_id": "J1115",
+  "client_dept": "IT",
+  "estimated_effort_hours": 7
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e78102b"
+  },
+  "review_id": "R001",
+  "job_case_id": "J1116",
+  "client_dept": "IT",
+  "estimated_effort_hours": 4
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e78102c"
+  },
+  "review_id": "R006",
+  "job_case_id": "J1117",
+  "client_dept": "IT",
+  "estimated_effort_hours": 4
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e78102d"
+  },
+  "review_id": "R012",
+  "job_case_id": "J1118",
+  "client_dept": "Healthcare",
+  "estimated_effort_hours": 8
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e78102e"
+  },
+  "review_id": "R011",
+  "job_case_id": "J1119",
+  "client_dept": "IT",
+  "estimated_effort_hours": 8
+},
+{
+  "_id": {
+    "$oid": "694c13940930197f1e78102f"
+  },
+  "review_id": "R007",
+  "job_case_id": "J1120",
+  "client_dept": "IT",
+  "estimated_effort_hours": 8
+}]
