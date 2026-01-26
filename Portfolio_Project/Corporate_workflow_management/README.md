@@ -51,16 +51,21 @@ This project requires Python 3. The following libraries are used throughout the 
 
 - **warnings** (standard library) -> suppression of non-critical runtime warnings
 
-## **Key Skills Demonstrated**
-
-– Data analysis and workflow modeling
-– Process efficiency and quality metrics
-– Python (pandas, NumPy)
-– Data visualization (matplotlib, seaborn, treemaps)
-– NoSQL databases (MongoDB)
-– Business-oriented analytics for management reporting
-- Inside the Jupyter interface, navigate to the directory where your notebook is stored and click on the notebook file (.ipynb) to open it.
-
 #### **Instructions**
 - Once the dependencies are installed, you can launch Jupyter Notebook
+- Inside the Jupyter interface, navigate to the directory where your notebook is stored and click on the notebook file (.ipynb) to open it.
 - To run the notebook, click on the first cell and press Shift + Enter (or click the "Run" button at the top). Continue running the cells one by one to see the output (or click on "run all" to run all cells).
+
+## **Key Skills Demonstrated**
+
+- Data analysis and workflow modeling
+
+- Process efficiency and quality metrics
+
+-  Python (pandas, NumPy)
+
+- Data visualization (matplotlib, seaborn, treemaps)
+
+- NoSQL databases (MongoDB)
+
+- Business-oriented analytics for management reporting
