@@ -54,7 +54,8 @@ This project requires Python 3. The following libraries are used throughout the 
 #### **Instructions**
 - Once the dependencies are installed, you can launch Jupyter Notebook
 
-#### **Key Skills Demonstrated**
+## **Key Skills Demonstrated**
+
 – Data analysis and workflow modeling
 – Process efficiency and quality metrics
 – Python (pandas, NumPy)
