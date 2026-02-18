@@ -17,7 +17,7 @@ MeetingBank_Project/
 ├── step3_database_loading.py          # Connect to Aiven MySQL & MongoDB, load tables
 │
 ├── step4_sql_optimization.ipynb       # SQLAlchemy query execution and benchmarking
-├── step5_mql_queries.py               # MongoDB query exploration and data generation
+├── step5_mql_queries.js               # MongoDB query exploration and data generation
 │
 └── step6_visualization.ipynb          # Merge SQL & NoSQL data for future comprehensive analysis
 ```
