@@ -5,6 +5,9 @@ This project implements an end-to-end data engineering pipeline using the Meetin
 ## Project Structure
 
 
+## Project Structure
+
+```
 MeetingBank_Project/
 ├── data/                              # Raw JSON and intermediate Parquet files
 ├── README.md
@@ -18,7 +21,8 @@ MeetingBank_Project/
 ├── step4_sql_optimization.ipynb       # SQLAlchemy query execution and benchmarking
 ├── step5_mql_queries.py               # MongoDB query exploration and data generation
 │
-├── step6_visualization.ipynb          # Merge SQL & NoSQL data for comprehensive analysis
+└── step6_visualization.ipynb          # Merge SQL & NoSQL data for comprehensive analysis
+```
 
 ## Pipeline Summary
 - Exploration & Processing: Analyze raw JSON, extract metadata, and engineer features (e.g., primary keys, transcript_word_count, speaker_count).
@@ -57,6 +61,6 @@ MeetingBank_Project/
 - Yebowen Hu, Tim Ganter, Hanieh Deilamsalehy, Franck Dernoncourt, Hassan Foroosh, & Fei Liu. (2023). MeetingBank: A Benchmark Dataset for Meeting Summarization (Version v2) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7989108
 
 ## Status
-- ✔ Meets all course project requirements
-- ✔ Demonstrates both SQL and NoSQL (MQL) query capabilities
-- ✔ Includes end-to-end integration from raw JSON to final merged visualizations
+✔ Meets all course project requirements
+✔ Demonstrates both SQL and NoSQL (MQL) query capabilities
+✔ Includes end-to-end integration from raw JSON to final merged visualizations
