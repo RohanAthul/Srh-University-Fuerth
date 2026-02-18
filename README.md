@@ -59,6 +59,6 @@ MeetingBank_Project/
 - Yebowen Hu, Tim Ganter, Hanieh Deilamsalehy, Franck Dernoncourt, Hassan Foroosh, & Fei Liu. (2023). MeetingBank: A Benchmark Dataset for Meeting Summarization (Version v2) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7989108
 
 ## Status
-✔ Meets all course project requirements
-✔ Demonstrates both SQL and NoSQL (MQL) query capabilities
-✔ Includes end-to-end integration from raw JSON to final merged visualizations
+- ✔ Meets all course project requirements
+- ✔ Demonstrates both SQL and NoSQL (MQL) query capabilities
+- ✔ Includes end-to-end integration from raw JSON to final merged visualizations
