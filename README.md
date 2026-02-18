@@ -6,11 +6,12 @@ This project implements an end-to-end data engineering pipeline using the Meetin
 
 ```
 MeetingBank_Project/
-├── data/                              # Raw JSON and intermediate Parquet files
+├── Data/                              # Raw JSON source file
+├── Processed_Data/                    # Parquet files storage
 ├── README.md
 ├── .gitignore
 │
-├── step0_exploratory.py               # PoC and MeetingBank.json data exploration
+├── step0_exploratory.py               # MeetingBank.json data exploration
 ├── step1_process_metadata.py          # Clean metadata, add PK/indexes, export Parquet
 ├── step2_process_transcripts.py       # Extract text, word/speaker counts, export Parquet
 ├── step3_database_loading.py          # Connect to Aiven MySQL & MongoDB, load tables
@@ -18,7 +19,7 @@ MeetingBank_Project/
 ├── step4_sql_optimization.ipynb       # SQLAlchemy query execution and benchmarking
 ├── step5_mql_queries.py               # MongoDB query exploration and data generation
 │
-└── step6_visualization.ipynb          # Merge SQL & NoSQL data for comprehensive analysis
+└── step6_visualization.ipynb          # Merge SQL & NoSQL data for future comprehensive analysis
 ```
 
 ## Pipeline Summary
