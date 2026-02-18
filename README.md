@@ -55,6 +55,8 @@ MeetingBank_Project/
 
 - Data integration across disparate database systems (SQL + NoSQL).
 
+- Subset: Longbeach & Seattle
+
 ## Dataset
 - Yebowen Hu, Tim Ganter, Hanieh Deilamsalehy, Franck Dernoncourt, Hassan Foroosh, & Fei Liu. (2023). MeetingBank: A Benchmark Dataset for Meeting Summarization (Version v2) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7989108
 
