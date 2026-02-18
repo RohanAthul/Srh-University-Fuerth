@@ -1,33 +1,62 @@
-# Welcome to my Srh-University-Furth Repository
+# MeetingBank Data Engineering Project
 
-This repository contains a curated (non-exhaustive) collection of academic and applied projects completed during my time at SRH University.  
-The projects span multiple domains and demonstrate my approach to analysis, problem-solving, and structured project work in an academic setting.
+This project implements an end-to-end data engineering pipeline using the MeetingBank dataset. It demonstrates data ingestion from JSON, intermediate processing using Parquet, hybrid storage architecture (MySQL hosted on Aiven + MongoDB), and query optimization across both SQL and NoSQL environments, culminating in combined visualizations.
 
-## Contents
+## Project Structure
 
-The repository includes selected coursework, case studies, and independent projects. Please note that this is not a complete archive of all work undertaken during my studies.
 
-Certain projects, most notably an analysis of a Great Place to Work® survey, are not included in this repository due to NDA and confidentiality constraints.
+MeetingBank_Project/
+├── data/                              # Raw JSON and intermediate Parquet files
+├── README.md
+├── .gitignore
+│
+├── step0_exploratory.py               # PoC and MeetingBank.json data exploration
+├── step1_process_metadata.py          # Clean metadata, add PK/indexes, export Parquet
+├── step2_process_transcripts.py       # Extract text, word/speaker counts, export Parquet
+├── step3_database_loading.py          # Connect to Aiven MySQL & MongoDB, load tables
+│
+├── step4_sql_optimization.ipynb       # SQLAlchemy query execution and benchmarking
+├── step5_mql_queries.py               # MongoDB query exploration and data generation
+│
+├── step6_visualization.ipynb          # Merge SQL & NoSQL data for comprehensive analysis
 
-## Purpose
+## Pipeline Summary
+- Exploration & Processing: Analyze raw JSON, extract metadata, and engineer features (e.g., primary keys, transcript_word_count, speaker_count).
 
-The primary purpose of this repository is to:
+- Intermediate Storage: Export processed data as highly efficient .parquet files.
 
-- Showcase project structure, methodology, and analytical thinking
+- Hybrid Database Loading: * Split structured summary data into three relational tables (cities, meetings, meeting_metrics) in MySQL (Aiven).
 
-- Provide insight into my academic and practical experience
+- Load unstructured full-length transcripts and associated numerical metrics into MongoDB.
 
-- Serve as a reference for reviewers, collaborators, or prospective employers
+- Query Optimization: Use SQLAlchemy in a Jupyter Notebook to present before-and-after query optimization results.
 
-## Usage Notes
+- NoSQL Exploration: Generate and retrieve data using MongoDB Query Language (MQL).
 
-The materials are provided for review and reference purposes only.
+- Data Integration & Visualization: Link and merge data from both the MySQL and MongoDB servers into a single unified dataframe for final analytical visualizations.
 
-Any proprietary frameworks, datasets, or client-sensitive information have been intentionally excluded.
+## Technologies Used
+- Python: ETL, feature engineering, and data manipulation (Pandas/Parquet).
 
-## Contact
+- MySQL (Aiven): Structured relational data storage.
 
-If you have any questions about the projects, methodologies used, or would like further context on any work that is not publicly available, please feel free to reach out.
+- MongoDB: Document database for unstructured full-text transcripts.
 
-Thank you for taking the time to explore this repository.
+- SQLAlchemy: Executing and benchmarking SQL queries inside Python.
 
+- Jupyter Notebooks: Presentation, query performance analysis, and data visualization.
+
+## Key Focus
+- Hybrid database architecture (Relational vs. Document).
+
+- Query benchmarking and optimization presentation via SQLAlchemy.
+
+- Data integration across disparate database systems (SQL + NoSQL).
+
+## Dataset
+- Yebowen Hu, Tim Ganter, Hanieh Deilamsalehy, Franck Dernoncourt, Hassan Foroosh, & Fei Liu. (2023). MeetingBank: A Benchmark Dataset for Meeting Summarization (Version v2) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7989108
+
+## Status
+- ✔ Meets all course project requirements
+- ✔ Demonstrates both SQL and NoSQL (MQL) query capabilities
+- ✔ Includes end-to-end integration from raw JSON to final merged visualizations
