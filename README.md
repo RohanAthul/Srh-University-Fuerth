@@ -21,13 +21,16 @@ MeetingBank_Project/
 │
 └── step6_visualization.ipynb          # Merge SQL & NoSQL data for future comprehensive analysis
 ```
+## Please note
+- Please visit the below link and download the MeetingBank.json file and save it in this repository before you run the program
+- [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7989108
 
 ## Pipeline Summary
 - Exploration & Processing: Analyze raw JSON, extract metadata, and engineer features (e.g., primary keys, transcript_word_count, speaker_count).
 
 - Intermediate Storage: Export processed data as highly efficient .parquet files.
 
-- Hybrid Database Loading: * Split structured summary data into three relational tables (cities, meetings, meeting_metrics) in MySQL (Aiven).
+- Hybrid Database Loading: Split structured summary data into three relational tables (cities, meetings, meeting_metrics) in MySQL (Aiven).
 
 - Load unstructured full-length transcripts and associated numerical metrics into MongoDB.
 
