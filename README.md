@@ -4,9 +4,6 @@ This project implements an end-to-end data engineering pipeline using the Meetin
 
 ## Project Structure
 
-
-## Project Structure
-
 ```
 MeetingBank_Project/
 ├── data/                              # Raw JSON and intermediate Parquet files
