@@ -8,6 +8,7 @@ This project implements an end-to-end data engineering pipeline using the Meetin
 MeetingBank_Project/
 ├── Data/                          # Raw JSON source files
 ├── Processed_Data/                # Intermediate Parquet files and cleaned data
+├── .env.example                   # Template for required database credentials
 ├── database_schema.jpeg           # Visual ERD/Schema layout for the hybrid setup
 ├── README.md                      # Project documentation
 ├── requirements.txt               # Python dependencies
@@ -27,9 +28,18 @@ MeetingBank_Project/
 ├── step6_sql_nosql_merge_and_visualization_jupyternotebook.ipynb     # Merge SQL and NoSQL data and analysis (Notebook version)
 └── step6_sql_nosql_merge_and_visualization.py                        # Merge SQL and NoSQL data and analysis (Script version)
 ```
-## How to Run
-- Please visit the below link and download the MeetingBank.json file and save it in this repository before you run the program [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7989108
-- 
+## Execution guide: MeetingBank Project
+
+1. Please visit the below link and download the MeetingBank.json file and save it in this repository before you run the program [Data set].
+   Zenodo. https://doi.org/10.5281/zenodo.7989108
+
+3. **Environment Setup**
+Before running any scripts, ensure all dependencies are installed and your database connections (Aiven MySQL & MongoDB) are configured.
+
+  - Install dependencies: pip install -r requirements.txt
+
+  - Check connections: Ensure your credentials (check .env.example and save your credentials as .env) are set up for step3_database_loading.py.
+
 
 ## Pipeline Summary
 - Exploration & Processing: Analyze raw JSON, extract metadata, and engineer features (e.g., primary keys, transcript word counts, and speaker counts).
