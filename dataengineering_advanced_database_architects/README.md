@@ -30,15 +30,27 @@ MeetingBank_Project/
 ```
 ## Execution guide: MeetingBank Project
 
-1. Please visit the below link and download the MeetingBank.json file and save it in this repository before you run the program [Data set].
+Please visit the below link and download the MeetingBank.json file and save it in this repository before you run the program [Data set].
    Zenodo. https://doi.org/10.5281/zenodo.7989108
-
-3. **Environment Setup**
+1. **Environment Setup**
 Before running any scripts, ensure all dependencies are installed and your database connections (Aiven MySQL & MongoDB) are configured.
-
   - Install dependencies: pip install -r requirements.txt
-
   - Check connections: Ensure your credentials (check .env.example and save your credentials as .env) are set up for step3_database_loading.py.
+2. **Data Cleaning & Preparation**
+- These steps transform the raw JSON into optimized Parquet files for faster processing.
+   - Step 1: Run python step1_process_metadata.py to clean metadata and generate primary keys.
+   - Step 2: Run python step2_process_transcripts.py to process text and speaker metrics.
+3. **Database Ingestion**
+- Load the processed data into your hybrid database environment.
+   - Step 3: Run python step3_database_loading.py to push data to Aiven MySQL and MongoDB.
+4. **Optimization & Querying**
+- Perform performance benchmarking and NoSQL data retrieval.
+   - SQL Optimization: Run python step4_sql_optimization.py (or use the .ipynb version) to benchmark SQLAlchemy performance.
+   - NoSQL Analysis: Execute step5_mql_queries.js within your MongoDB shell or Compass to run MQL scripts.
+5. **Final Integration & Visualization**
+- The final step merges the structured SQL data with the unstructured NoSQL data for total analysis.
+   - Step 6: Run python step6_sql_nosql_merge_and_visualization.py to generate the final insights and plots.
+
 
 
 ## Pipeline Summary
