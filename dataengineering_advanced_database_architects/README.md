@@ -1,58 +1,71 @@
 # MeetingBank Data Engineering Project
 
-This project implements an end-to-end data engineering pipeline using the MeetingBank dataset. It demonstrates data ingestion from JSON, intermediate processing using Parquet, hybrid storage architecture (MySQL hosted on Aiven + MongoDB), and query optimization across both SQL and NoSQL environments, culminating in combined visualizations.
+This project implements an end-to-end data engineering pipeline using the MeetingBank dataset. It demonstrates data ingestion from JSON, intermediate processing using Parquet, a hybrid storage architecture (MySQL hosted on Aiven + MongoDB), and query optimization across both SQL and NoSQL environments.
 
 ## Project Structure
 
 ```
 MeetingBank_Project/
-├── data/                              # Raw JSON and intermediate Parquet files
-├── README.md
-├── .gitignore
+├── Data/                          # Raw JSON source files
+├── Processed_Data/                # Intermediate Parquet files and cleaned data
+├── database_schema.jpeg           # Visual ERD/Schema layout for the SQL tables
+├── README.md                      # Project documentation
+├── requirements.txt               # Python dependencies
 │
-├── step0_exploratory.py               # PoC and MeetingBank.json data exploration
-├── step1_process_metadata.py          # Clean metadata, add PK/indexes, export Parquet
-├── step2_process_transcripts.py       # Extract text, word/speaker counts, export Parquet
-├── step3_database_loading.py          # Connect to Aiven MySQL & MongoDB, load tables
+├── exploratory.py                 # Initial exploration
+├── main.py                        # Primary orchestrator to run the full pipeline
 │
-├── step4_sql_optimization.ipynb       # SQLAlchemy query execution and benchmarking
-├── step5_mql_queries.py               # MongoDB query exploration and data generation
+├── step1_process_metadata.py      # Clean metadata, add PKs/indexes, export Parquet
+├── step2_process_transcripts.py   # Extract text, word/speaker counts, export Parquet
+├── step3_database_loading.py      # Connection logic for Aiven MySQL & MongoDB
 │
-├── step6_visualization.ipynb          # Merge SQL & NoSQL data for comprehensive analysis
+├── step4_sql_optimization.ipynb   # SQLAlchemy benchmarking (Notebook version)
+├── step4_sql_optimization.py      # SQL optimization logic (Script version)
+│
+├── step5_mql_queries.js           # MongoDB Query Language (MQL) scripts
+│
+├── step6_sql_nosql_merge_and_visualization_jupyternotebook.ipynb       # Merging SQL and NOSQL for analysis (Notebook version)
+└── step6_sql_nosql_merge_and_visualization.py                          # Merging SQL and NOSQL for analysis (Script version)
 ```
 
 ## Pipeline Summary
-- Exploration & Processing: Analyze raw JSON, extract metadata, and engineer features (e.g., primary keys, transcript_word_count, speaker_count).
+- Exploration & Processing: Analyze raw JSON, extract metadata, and engineer features (e.g., primary keys, transcript word counts, and speaker counts).
 
-- Intermediate Storage: Export processed data as highly efficient .parquet files.
+- Intermediate Storage: Processed data is saved into the Processed_Data/ directory as .parquet files for high-efficiency I/O.
 
-- Hybrid Database Loading: * Split structured summary data into three relational tables (cities, meetings, meeting_metrics) in MySQL (Aiven).
+- Hybrid Database Loading:
 
-- Load unstructured full-length transcripts and associated numerical metrics into MongoDB.
+  - MySQL (Aiven): Stores structured summary data across three relational tables (cities, meetings, meeting_metrics).
 
-- Query Optimization: Use SQLAlchemy in a Jupyter Notebook to present before-and-after query optimization results.
+  - MongoDB: Stores unstructured full-length transcripts and associated flexible metadata.
 
-- NoSQL Exploration: Generate and retrieve data using MongoDB Query Language (MQL).
+- Query Optimization: Using step4_sql_optimization, the project benchmarks query execution times and demonstrates performance gains through indexing and SQLAlchemy optimization.
 
-- Data Integration & Visualization: Link and merge data from both the MySQL and MongoDB servers into a single unified dataframe for final analytical visualizations.
+- NoSQL Interaction: step5_mql_queries.js contains native MongoDB queries to interact with the document store.
+
+- Data Integration: The final step merges data from both MySQL and MongoDB into a unified DataFrame for comprehensive analytical visualizations.
 
 ## Technologies Used
-- Python: ETL, feature engineering, and data manipulation (Pandas/Parquet).
+- Python: ETL, feature engineering (Pandas/PyArrow).
 
-- MySQL (Aiven): Structured relational data storage.
+- MySQL (Aiven): Cloud-hosted relational data storage.
 
-- MongoDB: Document database for unstructured full-text transcripts.
+- MongoDB: Document-oriented database for transcripts.
 
-- SQLAlchemy: Executing and benchmarking SQL queries inside Python.
+- SQLAlchemy: Programmatic database interaction and benchmarking.
 
-- Jupyter Notebooks: Presentation, query performance analysis, and data visualization.
+- JavaScript: Native MQL query scripting.
+
+- Jupyter Notebooks: Data storytelling and performance visualization.
 
 ## Key Focus
-- Hybrid database architecture (Relational vs. Document).
+- Hybrid Architecture: Seamlessly handles both structured relational data and unstructured text.
 
-- Query benchmarking and optimization presentation via SQLAlchemy.
+- Orchestration: Includes a main.py to streamline the execution of the ETL pipeline.
 
-- Data integration across disparate database systems (SQL + NoSQL).
+- Schema Design: Includes a database_schema.jpeg for clear architectural transparency.
+
+- Dual-Format Delivery: Provides both .py scripts for production-style execution and .ipynb for interactive analysis.
 
 ## Dataset
 - Yebowen Hu, Tim Ganter, Hanieh Deilamsalehy, Franck Dernoncourt, Hassan Foroosh, & Fei Liu. (2023). MeetingBank: A Benchmark Dataset for Meeting Summarization (Version v2) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7989108
