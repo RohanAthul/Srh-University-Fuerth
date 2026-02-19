@@ -27,9 +27,9 @@ MeetingBank_Project/
 ├── step6_sql_nosql_merge_and_visualization_jupyternotebook.ipynb     # Merge SQL and NoSQL data and analysis (Notebook version)
 └── step6_sql_nosql_merge_and_visualization.py                        # Merge SQL and NoSQL data and analysis (Script version)
 ```
-## Please note
-- Please visit the below link and download the MeetingBank.json file and save it in this repository before you run the program
-- [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7989108
+## How to Run
+- Please visit the below link and download the MeetingBank.json file and save it in this repository before you run the program [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7989108
+- 
 
 ## Pipeline Summary
 - Exploration & Processing: Analyze raw JSON, extract metadata, and engineer features (e.g., primary keys, transcript word counts, and speaker counts).
