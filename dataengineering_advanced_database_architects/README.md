@@ -12,7 +12,7 @@ MeetingBank_Project/
 ├── README.md                      # Project documentation
 ├── requirements.txt               # Python dependencies
 │
-├── exploratory.py                 # Initial PoC and data exploration
+├── exploratory.py                 # Initial data exploration
 ├── main.py                        # Primary orchestrator to run the full pipeline
 │
 ├── step1_process_metadata.py      # Clean metadata, add PKs/indexes, export Parquet
@@ -49,24 +49,28 @@ MeetingBank_Project/
 - Data Integration: The final step merges data from both MySQL and MongoDB into a unified DataFrame for comprehensive analytical visualizations.
 
 ## Technologies Used
-- Python: ETL, feature engineering, and data manipulation (Pandas/Parquet).
+- Python: ETL, feature engineering (Pandas/PyArrow).
 
-- MySQL (Aiven): Structured relational data storage.
+- MySQL (Aiven): Cloud-hosted relational data storage.
 
-- MongoDB: Document database for unstructured full-text transcripts.
+- MongoDB: Document-oriented database for transcripts.
 
-- SQLAlchemy: Executing and benchmarking SQL queries inside Python.
+- SQLAlchemy: Programmatic database interaction and benchmarking.
 
-- Jupyter Notebooks: Presentation, query performance analysis, and data visualization.
+- JavaScript: Native MQL query scripting.
+
+- Jupyter Notebooks: Data storytelling and performance visualization.
 
 ## Key Focus
-- Hybrid database architecture (Relational vs. Document).
+- Hybrid Architecture: Seamlessly handles both structured relational data and unstructured text.
 
-- Query benchmarking and optimization presentation via SQLAlchemy.
+- Orchestration: Includes a main.py to streamline the execution of the ETL pipeline.
 
-- Data integration across disparate database systems (SQL + NoSQL).
+- Schema Design: Includes a database_schema.jpeg for clear architectural transparency.
 
-- Subset: Longbeach & Seattle
+- Dual-Format Delivery: Provides both .py scripts for production-style execution and .ipynb for interactive analysis.
+
+- Subset from dataset chosen: **Longbeach** & **Seattle**
 
 ## Dataset
 - Yebowen Hu, Tim Ganter, Hanieh Deilamsalehy, Franck Dernoncourt, Hassan Foroosh, & Fei Liu. (2023). MeetingBank: A Benchmark Dataset for Meeting Summarization (Version v2) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7989108
