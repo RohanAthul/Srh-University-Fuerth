@@ -51,12 +51,17 @@ Before running any scripts, ensure all dependencies are installed and your datab
 - The final step merges the structured SQL data with the unstructured NoSQL data for total analysis.
    - Step 6: Run python step6_sql_nosql_merge_and_visualization.py to generate the final insights and plots.
 
+#### One-command run
+- If you want to run the entire Python pipeline automatically, you can simply execute the orchestrator:
+- python main.py
+
+Note: The .ipynb files are provided for interactive exploration and visualization, while the .py scripts are intended for automated production runs.
 
 
 ## Pipeline Summary
 - Exploration & Processing: Analyze raw JSON, extract metadata, and engineer features (e.g., primary keys, transcript word counts, and speaker counts).
 
-- Intermediate Storage: Processed data is saved into the Processed_Data/ directory as .parquet files for high-efficiency I/O.
+- Intermediate Storage: Processed data is saved into the Processed_Data/ directory as .parquet files for high-efficiency.
 
 - Hybrid Database Loading:
 
