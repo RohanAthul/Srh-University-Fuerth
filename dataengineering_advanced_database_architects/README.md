@@ -1,44 +1,52 @@
 # MeetingBank Data Engineering Project
 
-This project implements an end-to-end data engineering pipeline using the MeetingBank dataset. It demonstrates data ingestion from JSON, intermediate processing using Parquet, hybrid storage architecture (MySQL hosted on Aiven + MongoDB), and query optimization across both SQL and NoSQL environments, culminating in combined visualizations.
+This project implements an end-to-end data engineering pipeline using the MeetingBank dataset. It demonstrates data ingestion from JSON, intermediate processing using Parquet, a hybrid storage architecture (MySQL hosted on Aiven + MongoDB), and query optimization across both SQL and NoSQL environments.
 
 ## Project Structure
 
 ```
 MeetingBank_Project/
-├── Data/                              # Raw JSON source file
-├── Processed_Data/                    # Parquet files storage
-├── README.md
-├── .gitignore
+├── Data/                          # Raw JSON source files
+├── Processed_Data/                # Intermediate Parquet files and cleaned data
+├── database_schema.jpeg           # Visual ERD/Schema layout for the hybrid setup
+├── README.md                      # Project documentation
+├── requirements.txt               # Python dependencies
 │
-├── step0_exploratory.py               # MeetingBank.json data exploration
-├── step1_process_metadata.py          # Clean metadata, add PK/indexes, export Parquet
-├── step2_process_transcripts.py       # Extract text, word/speaker counts, export Parquet
-├── step3_database_loading.py          # Connect to Aiven MySQL & MongoDB, load tables
+├── exploratory.py                 # Initial PoC and data exploration
+├── main.py                        # Primary orchestrator to run the full pipeline
 │
-├── step4_sql_optimization.ipynb       # SQLAlchemy query execution and benchmarking
-├── step5_mql_queries.js               # MongoDB query exploration and data generation
+├── step1_process_metadata.py      # Clean metadata, add PKs/indexes, export Parquet
+├── step2_process_transcripts.py   # Extract text, word/speaker counts, export Parquet
+├── step3_database_loading.py      # Connection logic for Aiven MySQL & MongoDB
 │
-└── step6_visualization.ipynb          # Merge SQL & NoSQL data for future comprehensive analysis
+├── step4_sql_optimization.ipynb   # SQLAlchemy benchmarking (Notebook version)
+├── step4_sql_optimization.py      # SQL optimization logic (Script version)
+│
+├── step5_mql_queries.js           # MongoDB Query Language (MQL) scripts
+│
+├── step6_sql_nosql_merge_and_visualization_jupyternotebook.ipynb     # Merge SQL and NoSQL data and analysis (Notebook version)
+└── step6_sql_nosql_merge_and_visualization.py                        # Merge SQL and NoSQL data and analysis (Script version)
 ```
 ## Please note
 - Please visit the below link and download the MeetingBank.json file and save it in this repository before you run the program
 - [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7989108
 
 ## Pipeline Summary
-- Exploration & Processing: Analyze raw JSON, extract metadata, and engineer features (e.g., primary keys, transcript_word_count, speaker_count).
+- Exploration & Processing: Analyze raw JSON, extract metadata, and engineer features (e.g., primary keys, transcript word counts, and speaker counts).
 
-- Intermediate Storage: Export processed data as highly efficient .parquet files.
+- Intermediate Storage: Processed data is saved into the Processed_Data/ directory as .parquet files for high-efficiency I/O.
 
-- Hybrid Database Loading: Split structured summary data into three relational tables (cities, meetings, meeting_metrics) in MySQL (Aiven).
+- Hybrid Database Loading:
 
-- Load unstructured full-length transcripts and associated numerical metrics into MongoDB.
+  - MySQL (Aiven): Stores structured summary data across three relational tables (cities, meetings, meeting_metrics).
 
-- Query Optimization: Use SQLAlchemy in a Jupyter Notebook to present before-and-after query optimization results.
+  - MongoDB: Stores unstructured full-length transcripts and associated flexible metadata.
 
-- NoSQL Exploration: Generate and retrieve data using MongoDB Query Language (MQL).
+- Query Optimization: Using step4_sql_optimization, the project benchmarks query execution times and demonstrates performance gains through indexing and SQLAlchemy optimization.
 
-- Data Integration & Visualization: Link and merge data from both the MySQL and MongoDB servers into a single unified dataframe for final analytical visualizations.
+- NoSQL Interaction: step5_mql_queries.js contains native MongoDB queries to interact with the document store.
+
+- Data Integration: The final step merges data from both MySQL and MongoDB into a unified DataFrame for comprehensive analytical visualizations.
 
 ## Technologies Used
 - Python: ETL, feature engineering, and data manipulation (Pandas/Parquet).
