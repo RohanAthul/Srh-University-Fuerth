@@ -8,8 +8,6 @@ from pymongo import MongoClient
 import certifi
 import os
 from dotenv import load_dotenv
-import mongomock
-from unittest.mock import MagicMock
 
 # CONFIGURATION & PATHING
 try:
