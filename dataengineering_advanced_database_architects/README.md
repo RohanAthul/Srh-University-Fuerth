@@ -13,6 +13,7 @@ MeetingBank_Project/
 ├── .env.example                   # Template for required database credentials
 ├── database_schema.jpeg           # Visual ERD/Schema layout for the hybrid setup
 ├── README.md                      # Project documentation
+├── report.pdf                     # project report
 ├── requirements.txt               # Python dependencies
 │
 ├── exploratory.py                 # Initial data exploration
