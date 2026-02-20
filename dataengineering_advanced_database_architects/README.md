@@ -34,8 +34,8 @@ Please visit the below link and download the MeetingBank.json file and save it i
    Zenodo. https://doi.org/10.5281/zenodo.7989108
 1. **Environment Setup**
 Before running any scripts, ensure all dependencies are installed and your database connections (Aiven MySQL & MongoDB) are configured.
-  - Install dependencies: pip install -r requirements.txt
-  - Check connections: Ensure your credentials (check .env.example and save your credentials as .env) are set up for step3_database_loading.py.
+  - **Install dependencies:** pip install -r requirements.txt
+  - **Check connections:** Ensure your credentials (check .env.example and save your credentials as .env) are set up for step3_database_loading.py.
 2. **Data Cleaning & Preparation**
 - These steps transform the raw JSON into optimized Parquet files for faster processing.
    - Step 1: Run python step1_process_metadata.py to clean metadata and generate primary keys.
@@ -99,8 +99,15 @@ Note: The .ipynb files are provided for interactive exploration and visualizatio
 
 - Subset from dataset chosen: **Longbeach** & **Seattle**
 
-## Dataset
+## Resources
+#### Dataset
 - Yebowen Hu, Tim Ganter, Hanieh Deilamsalehy, Franck Dernoncourt, Hassan Foroosh, & Fei Liu. (2023). MeetingBank: A Benchmark Dataset for Meeting Summarization (Version v2) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7989108
+#### Infrastructure
+- Aiven for MySQL: Cloud-hosted database service used for structured data storage
+* MongoDB Atlas: Used for document-based transcript storage
+#### Development Support
+* Gemini 3 Flash: Utilized as a technical collaborator for syntax optimization, debugging Python/SQL integration, and refining documentation structure.
+* SQLAlchemy & Pandas: Core libraries used for the ETL and benchmarking logic.
 
 ## Status
 - ✔ Meets all course project requirements
