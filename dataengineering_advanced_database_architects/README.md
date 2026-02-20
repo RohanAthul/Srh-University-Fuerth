@@ -113,6 +113,12 @@ Note: The .ipynb files are provided for interactive exploration and visualizatio
 * Gemini 3 Flash: Utilized as a technical collaborator for syntax optimization, debugging Python/SQL integration, and refining documentation structure.
 * SQLAlchemy & Pandas: Core libraries used for the ETL and benchmarking logic.
 
+## Advanced Database Architects - Group Members
+- Athul Rohan Anil Kumar Rajitha
+- Zaw Win Htet Naing
+- Srushti Deepak Borkar
+- Lakshmi Sahiti Varada
+
 ## Status
 - ✔ Meets all course project requirements
 - ✔ Demonstrates both SQL and NoSQL (MQL) query capabilities
