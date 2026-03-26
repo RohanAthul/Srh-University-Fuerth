@@ -2,8 +2,6 @@
 
 This repository contains a case study on **Data-Driven Decision Making at Amazon** and how it provides the company with a competitive edge in supply chain operations. It was created as part of a **University project on Supply Chain Analytics**.
 
----
-
 ## Project Overview
 
 The focus of this project is to analyze how Amazon leverages data and analytics to optimize its supply chain. The case study covers:
@@ -14,8 +12,6 @@ The focus of this project is to analyze how Amazon leverages data and analytics 
 - Insights into how these practices provide **competitive advantage**.
 
 The study is presented in a professional **PowerPoint presentation**, showcasing research findings, data visualization, and analytical insights.
-
----
 
 ## Repository Contents
 
