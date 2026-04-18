@@ -26,7 +26,7 @@ Built with the Streamlit framework, it provides a "stopwatch" experience where u
 - **Export:** User downloads the full log for external reporting.
 
 ## How to Run the program
-- [Hosted on Streamlit - Linked to Github] https://minimalisttt.streamlit.app/
+- [Hosted on Streamlit - Linked to Github] https://minimalist-time-tracker.streamlit.app/
 - [OR - On windows cmd prompt]  
   - **python --version** - check python version
   - **python -m pip install streamlit pandas** - Install streamlit and Pandas
